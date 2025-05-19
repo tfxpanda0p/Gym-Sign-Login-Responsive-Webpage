@@ -33,4 +33,3 @@ This is a responsive sign-up/login page built using **HTML**, **CSS**, and **Jav
 1. Clone or download this repository.
 2. Open `Signin-Login.html` in any web browser.
 3. Interact with the Login/Sign-Up form.
-
