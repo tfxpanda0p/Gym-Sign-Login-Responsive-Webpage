@@ -6,7 +6,7 @@ This is a responsive sign-up/login page built using **HTML**, **CSS**, and **Jav
 
 ## 📸 Screenshot
 
-![Gym Sign-Up/Login Screenshot](./image/screen-shot/SignIn.jpg)(./image/screen-shot/LogIn.jpg)
+![Gym-Sign-Login-Responsive-Webpage\image\screen-shot]
 
 ---
 
