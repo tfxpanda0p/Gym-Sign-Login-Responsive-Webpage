@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Signin-Login.css">
+    <title>Signin-Login</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Login</h1>
+                <input type="email" id="login-email" placeholder="Email" required>
+                <div class="password-wrapper">
+                    <input type="password" id="login-pass" class="pass" placeholder="Password" required>
+                    <button type="button" class="pass__h">
+                        <img src="./image/eye-open.png" alt="Show Password" class="eye-icon">
+                    </button>
+                </div>
+                <a href="#">Forget Your Password?</a>
+                <button type="submit">LOGIN</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Create Account</h1>
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="number" id="age" placeholder="Age" min="5" max="120" required>
+                <input type="tel" id="contact-number" placeholder="Contact Number" pattern="[0-9]{10}" required>
+                <input type="email" id="email-address" placeholder="Email" required>
+                <div class="password-wrapper">
+                    <input type="password" id="sign-pass" class="pass" placeholder="Password" required>
+                    <button type="button" class="pass__h">
+                        <img src="./image/eye-open.png" alt="Show Password" class="eye-icon">
+                    </button>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Great to See You Again!</h1>
+                    <p>Access your account now and get straight to what matters.</p>
+                    <p>No account? Step up and sign up today!</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Warrior!</h1>
+                    <p>Ready to go all in? Provide your details and unleash every feature.</p>
+                    <p>Got an account? Let's get you logged in!</p>
+                    <button class="hidden" id="register">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Signin-Login.js"></script>
+</body>
+
+</html>
